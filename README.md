@@ -49,6 +49,8 @@ npx tailwindcss init -p
 content: [
   "./src/**/*.{js,ts,jsx,tsx}",
 ],
+
+
 ## globals.css に以下を追加：
 @tailwind base;<br />
 @tailwind components;<br />
