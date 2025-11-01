@@ -60,6 +60,6 @@ content: [
 # 開発サーバーの起動 | Run Development Server
 npm run dev
 
-## ブラウザで以下にアクセス：
+## ブラウザで以下にアクセス | Access below：
 http://localhost:3000
 
