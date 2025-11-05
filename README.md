@@ -5,12 +5,8 @@
 タスクの進捗状況をドラッグ＆ドロップで整理し、グラフや統計情報でチームの生産性を可視化します。  
 また、メンバー管理機能により、担当者を柔軟に追加・削除できます。
 
-TaskBoard is a clean, modern dashboard for managing team tasks visually.  
-You can drag & drop tasks across columns, view progress with charts, and manage team members easily.
-
 
 # Key Features
-
 **ドラッグ＆ドロップ式タスク管理**  
 **タスク進捗の円グラフ・統計表示（Recharts）**  
 **担当者のプルダウン選択・メンバー管理**  
@@ -27,35 +23,11 @@ You can drag & drop tasks across columns, view progress with charts, and manage 
 # Setup Instructions
 
 ## Requirements
-- Node.js 18 以上  
+- Node.js 24 以上  
 - npm
 
 # 依存モジュールのインストール | Install Dependencies
 npm install
-
-## Core Packages
-- npm install next react react-dom
-- npm install tailwindcss postcss autoprefixer
-- npm install recharts
-- npm install @radix-ui/react-dialog
-- npm install lucide-react
-- npm install react-beautiful-dnd
-- npm install class-variance-authority clsx tailwind-merge
-
-
-# Tailwind CSS の初期化 | Initialize Tailwind (if not already done)
-npx tailwindcss init -p
-## tailwind.config.js に以下を追加：
-content: [
-  "./src/**/*.{js,ts,jsx,tsx}",
-],
-
-
-## globals.css に以下を追加：
-@tailwind base;<br />
-@tailwind components;<br />
-@tailwind utilities;<br />
-
 
 # 開発サーバーの起動 | Run Development Server
 npm run dev
